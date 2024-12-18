@@ -1,62 +1,81 @@
-# Calculadora Web
-Este es un proyecto de calculadora básica creada con HTML, CSS y JavaScript. La calculadora permite realizar operaciones matemáticas como suma, resta, multiplicación y división, y maneja entradas numéricas y decimales, así como la posibilidad de limpiar la entrada o realizar cálculos encadenados.
+# Web Calculator
 
-## Características
-Realiza operaciones básicas: Suma, Resta, Multiplicación y División.
-Soporta decimales.
-Limpiar entrada y limpiar todo.
-Previene la división por cero, mostrando un mensaje de error.
-Soporte para operaciones como AC (limpiar todo) y CE (borrar último número ingresado).
+This is a basic calculator project built using HTML, CSS, and JavaScript. The calculator allows users to perform mathematical operations such as addition, subtraction, multiplication, and division. It supports numeric and decimal inputs, as well as features to clear entries or perform chained calculations.
 
-### Tecnologías utilizadas
-HTML: Estructura de la página web.
-CSS: Estilos visuales para la interfaz de usuario.
-JavaScript: Lógica de la calculadora y manejo de eventos.
+## Features
 
-## Instalación
-Para probar este proyecto en tu propia máquina, sigue estos pasos:
+- Perform basic operations: Addition, Subtraction, Multiplication, and Division.
+- Supports decimal inputs.
+- Clear the last entry or reset everything.
+- Prevents division by zero with an error message.
+- Includes functionality for AC (clear all) and CE (clear last entry) operations.
 
-Clona el repositorio:
+## Technologies Used
 
-```bash
-git clone https://github.com/tu_usuario/basic_calculator.git
-```
+- **HTML**: Structure of the web page.
+- **CSS**: Visual styling for the user interface.
+- **JavaScript**: Logic for the calculator and event handling.
 
-Navega hasta la carpeta del proyecto:
+## Installation
 
-```bash
-cd basic_calculator
-```
-Abre el archivo index.html en tu navegador favorito:
+To try this project on your machine, follow these steps:
 
-```bash
-index.html
-```
+1. Clone the repository:
 
-O simplemente abre el archivo directamente desde tu navegador.
+   ```bash
+   git clone https://github.com/your_username/basic_calculator.git
+   ```
 
-## Uso
-Introducir números: Haz clic en los botones numéricos para ingresar números.
-Operar: Haz clic en los botones de los operadores (+, -, X, /) para realizar operaciones.
-Resultado: Haz clic en el botón = para obtener el resultado.
-Limpiar la entrada: Haz clic en CS para borrar el último número ingresado.
-Limpiar todo: Haz clic en AC para borrar todos los datos y comenzar de nuevo.
-Decimales: Puedes introducir decimales haciendo clic en el botón ..
+2. Navigate to the project folder:
 
-Ejemplo de uso:
-Operación básica: 2 + 3 = 5
+   ```bash
+   cd basic_calculator
+   ```
 
-División por cero: 5 / 0 = Error
+3. Open the `index.html` file in your favorite browser:
 
-## Contribución
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+   ```bash
+   index.html
+   ```
 
-Haz un fork del repositorio.
+   Alternatively, open the file directly in your browser.
 
-Crea una nueva rama para tu cambio (git checkout -b nueva-funcionalidad).
+## Usage
 
-Realiza los cambios y haz commit (git commit -am 'Agrega nueva funcionalidad').
+1. **Enter numbers**: Click the numeric buttons to input numbers.
+2. **Operate**: Click the operator buttons (+, -, ×, ÷) to perform operations.
+3. **Result**: Click the `=` button to get the result.
+4. **Clear the last entry**: Click `CE` to erase the last entered number.
+5. **Clear everything**: Click `AC` to reset all data and start fresh.
+6. **Decimals**: Add decimals by clicking the `.` button.
 
-Haz push a tu rama (git push origin nueva-funcionalidad).
+### Example Usage:
 
-Crea un Pull Request.
+- **Basic Operation**: `2 + 3 = 5`
+- **Division by Zero**: `5 ÷ 0 = Error`
+
+## Contribution
+
+If you’d like to contribute to this project, follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch for your changes:
+
+   ```bash
+   git checkout -b new-feature
+   ```
+
+3. Make your changes and commit them:
+
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+
+4. Push your changes to your forked repository:
+
+   ```bash
+   git push origin new-feature
+   ```
+
+5. Create a Pull Request to merge your changes into the main branch.
